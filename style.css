@@ -1,5 +1,7 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(26, 25, 27);
+    color: aliceblue;
 }
 
 .nav_d_btn {
@@ -41,3 +43,4 @@ body {
     border-radius: 100%;
     background-color: rgb(199, 67, 233);
 }
+
