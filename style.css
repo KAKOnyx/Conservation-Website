@@ -1,7 +1,16 @@
+a {
+    color: aqua;
+}
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: rgb(26, 25, 27);
     color: aliceblue;
+}
+
+.slogan {
+    font-size: 4em;
+    padding-left: 5%;
+    max-width: 400px;
 }
 
 .nav_d_btn {
