@@ -7,10 +7,18 @@ body {
     color: aliceblue;
 }
 
-.slogan {
-    font-size: 4em;
-    padding-left: 5%;
-    max-width: 400px;
+.hero__text {
+    font-size: 10em;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.col {
+    border: solid red;
+    width: 100%;
 }
 
 .nav_d_btn {
