@@ -15,12 +15,14 @@ body {
 }
 
 .hero__text {
-    font-size: 7em;
+    font-size: 6em;
+    padding-left: 5%;
 }
 
 .container {
+    margin: 0 auto;
     border: yellow solid;
-    max-width: 900px;
+    max-width: 1200px;
     /* overflow: hidden; */
 }
 
@@ -28,18 +30,20 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 40px;
+    gap: 80px;
 }
 
 .col {
+    font-size: 1.4em;
     border: solid red;
     width: fit-content;
     max-width: 300px;
 }
 
 .btn {
-    padding: 9em;
+    padding: 7em;
     border-radius: 100%;
+    border: 0;
 }
 
 .nav_d_btn {
