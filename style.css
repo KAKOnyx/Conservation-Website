@@ -11,25 +11,27 @@ body {
 }
 
 .hero {
-    border: solid red;
+    /* border: solid red; */
     position: relative;
     margin: 0 auto;
-    height: 74vh;
+    height: 80vh;
 }
 
 .hero__text {
-    font-size: 6em;
-    padding-left: 15%;
+    color: lightgoldenrodyellow;
+    font-size: 5.3em;
+    padding-left: 13%;
+    font-family: 'Momo Trust Display', sans-serif;
 }
 
 .hero__image {
-    width: 80vw;
-    height: 65vh;
+    width: 84vw;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 8vh;
+    top: 7vh;
     left: 8vw;
     z-index: -1;
 }
@@ -43,33 +45,32 @@ body {
 .container {
     padding: 5%;
     margin: 0 auto;
-    border: orange solid;
-    max-width: 1200px;
-    background: 
-    /* overflow: hidden; */
+    /* border: orange solid; */
+    max-width: 1300px;
+    background: rgb(18, 68, 86);
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 80px;
+    column-gap: 120px;
+    row-gap: 60px;
 }
 
 .col {
     font-size: 1.4em;
-    border: solid yellow;
+    /* border: solid yellow; */
     width: fit-content;
     max-width: 300px;
+    text-align: center;
 }
 
-.btn {
-    padding: 7em;
-    border-radius: 100%;
-    border: 0;
+.btn img {
+    width: 8.2em;
+    height: 8.2em;
+    border-radius:50%;
+    display: block;
+    object-fit: cover;
+    margin: 0 auto;
 }
-
-.nav_d_btn {
-    
-}
-
