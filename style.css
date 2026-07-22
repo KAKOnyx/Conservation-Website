@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: rgb(26, 25, 27);
+    background: #34475c;
     color: aliceblue;
 }
 
@@ -15,13 +15,17 @@ body {
     position: relative;
     margin: 0 auto;
     height: 80vh;
+    overflow-wrap: break-word;
 }
 
 .hero__text {
-    color: lightgoldenrodyellow;
     font-size: 5.3em;
     padding-left: 13%;
     font-family: 'Momo Trust Display', sans-serif;
+}
+
+.hero__text p {
+    hyphens: auto;
 }
 
 .hero__image {
@@ -42,12 +46,31 @@ body {
     object-fit: cover;
 }
 
+.info {
+    /* border: solid green; */
+    margin-bottom: 10vh;
+}
+
+.info__hook {
+    /* border: solid lightgreen; */
+    font-size: 4em;
+    max-width: 60vw;
+    margin: 0 auto;
+}
+
+.info__blurb {
+    /* border: solid lightblue; */
+    font-size: 1.3em;
+    max-width: 60vw;
+    margin: 0 auto;
+}
+
 .container {
     padding: 5%;
     margin: 0 auto;
     /* border: orange solid; */
-    max-width: 100%;
-    background: rgb(18, 68, 86);
+    background: #68987E;
+    margin-bottom: 12vh;
 }
 
 .row {
