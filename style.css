@@ -11,6 +11,17 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-family: 'Momo Trust Display', 'google sans', arial, sans-serif;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'google sans', arial, sans-serif;
+}
+
+
+/* Home/Navigation page */
+
 .hero {
     /* border: solid red; */
     position: relative;
@@ -20,9 +31,9 @@ body {
 }
 
 .hero__text {
-    font-size: 5.3em;
+    font-size: 2.5em;
     padding-left: 13%;
-    font-family: 'Momo Trust Display', sans-serif;
+    max-width: 80vw;
 }
 
 .hero__text p {
@@ -54,7 +65,7 @@ body {
 
 .info__hook {
     /* border: solid lightgreen; */
-    font-size: 4em;
+    font-size: 2.5em;
     max-width: 60vw;
     margin: 0 auto;
 }
@@ -70,7 +81,7 @@ body {
     padding: 5%;
     margin: 0 auto;
     /* border: orange solid; */
-    background: #68987E;
+    background: #3e6b91;
     margin-bottom: 12vh;
 }
 
@@ -84,6 +95,7 @@ body {
 
 .col {
     font-size: 1.4em;
+    font-family: 'franklin gothic medium', sans;
     /* border: solid yellow; */
     width: fit-content;
     max-width: 300px;
@@ -91,25 +103,54 @@ body {
 }
 
 .nav_btn img {
-    background: red;
     width: 8.2em;
     height: 8.2em;
     border-radius:50%;
     display: block;
     object-fit: cover;
     margin: 0 auto;
+    transition: 0.5s ease;
 }
 
-.nav_btn:hover,
-.nav_btn:focus {
-    opacity: 50%;
+.nav_btn img:hover,
+.nav_btn img:focus {
+    width: 8.6em;
+    height: 8.6em;
 }
 
 
+/* Details page */
+
+.hero__d {
+    /* border: solid magenta; */
+    margin-top: 20vh;
+}
 
 .hero__text__d {
-    border: solid red;
-    font-size: 2.5em;
-    color: lightgoldenrodyellow;
+    /* border: solid red; */
+    font-family: 'momo trust display', sans-serif;
+    font-size: 1.7em;
+    color: white;
     padding: 5%;
+    text-align: center;
+    margin-top: 15vh;
+}
+
+.hero__image__d {
+    /* border: solid green; */
+    width: 100%;
+    height: 60vh;
+    top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
+}
+
+.hero__image__d img {
+    /* border: solid purple; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
