@@ -123,24 +123,24 @@ h2 {
 
 .hero__d {
     /* border: solid magenta; */
-    margin-top: 20vh;
+    margin-top: 80px;
 }
 
 .hero__text__d {
     /* border: solid red; */
+    height: 39vh;
     font-family: 'momo trust display', sans-serif;
     font-size: 1.7em;
     color: white;
-    padding: 5%;
     text-align: center;
-    margin-top: 15vh;
+    margin-top: 170px;
 }
 
 .hero__image__d {
     /* border: solid green; */
     width: 100%;
     height: 60vh;
-    top: 5vh;
+    top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
