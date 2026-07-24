@@ -80,9 +80,23 @@ h2 {
     font-weight: 500;
 }
 
-,whio
+.whio {
+    background: blue;
+    width: 80vw;
+    max-width: 1000px;
+    padding: 30px;
+    margin-bottom: 10vh;
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: 20px;
+}
 
-.whio__text ul {
+.whio__text {
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+.whio__blurb ul {
     font-family: "google sans", arial, sans-serif;
     font-weight: 500;
 }
