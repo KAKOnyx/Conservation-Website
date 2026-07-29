@@ -1,13 +1,14 @@
 
+/* Site wide code */
 
 *, *::before, *::after {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'google sans', Arial, sans-serif;
     /* background: #34475c; */
-    background-image: linear-gradient(0deg, rgb(0, 39, 81), rgb(190, 217, 252));
+    background-image: linear-gradient(45deg, rgb(0, 39, 81), rgb(190, 217, 252));
     color: aliceblue;
     margin: 0;
 }
@@ -20,6 +21,15 @@ h2 {
     font-family: 'Franklin Gothic Medium', 'google sans', arial, sans-serif;
 }
 
+.navigation {
+    text-align: right;
+    margin-bottom: 50vh;
+}
+
+.navigation a:link,
+.navigation a:visited {
+    color: aliceblue;
+}
 
 /* Home/Navigation page */
 
@@ -37,10 +47,6 @@ h2 {
     font-size: 2.5em;
     padding-left: 10%;
     max-width: 80vw;
-}
-
-.hero__text p {
-    hyphens: auto;
 }
 
 .hero__image {
@@ -77,20 +83,20 @@ h2 {
 
 .info__hook {
     /* border: solid lightgreen; */
-    padding: 1px 40px 0px 40px;
-    font-size: 2.5em;
+    padding: 1px 50px 0px 50px;
+    font-size: 1.5em;
     max-width: 650px;
     margin: 0 auto;
 }
 
 .info__blurb {
     /* border: solid lightblue; */
-    font-size: 1.3em;
+    font-size: 1.1em;
     max-width: 650px;
     margin: 0 auto;
     font-family: "google sans", arial, sans-serif;
-    font-weight: 500;
-    padding: 0px 40px 30px 40px;
+    font-weight: 550;
+    padding: 0px 50px 30px 45px;
 }
 
 .whio {
@@ -101,7 +107,6 @@ h2 {
     padding: 30px;
     margin: 10vh 30px 15vh auto;
     border-radius: 100px;
-
 }
 
 .whio__text {
@@ -124,7 +129,7 @@ h2 {
     padding-bottom: 9%;
     margin: 0 auto;
     /* border: orange solid; */
-    background: #3e6b91;
+    background: #7ba781;
     margin-bottom: 12vh;
 }
 
@@ -202,14 +207,40 @@ h2 {
     object-fit: cover;
 }
 
-
-
-.navigation {
-    text-align: right;
-    margin-bottom: 50vh;
+.whio__d {
+    /* border: solid darkcyan; */
+    background: #89bcd5;
+    width: 80vw;
+    max-width: 1000px;
+    padding: 30px;
+    margin: 10vh 30px 15vh auto;
+    border-radius: 100px;
 }
 
-.navigation a:link,
-.navigation a:visited {
-    color: aliceblue;
+.whio__text__d {
+    padding-left: 30px;
+    padding-right: 40px;
+    color: rgb(30, 41, 54);
 }
+
+.whio__blurb__d p {
+    font-size: 2em;
+}
+
+.whio__blurb__d ul {
+    font-family: "google sans", arial, sans-serif;
+    font-weight: 550;
+}
+
+/* To Do Page */
+
+
+
+
+/* You Do Page */
+
+
+
+/* Volunteering Page */
+
+
