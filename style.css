@@ -142,9 +142,9 @@ h2 {
 }
 
 .col {
-    font-size: 1.4em;
-    font-family: 'franklin gothic medium', sans;
-    /* border: solid yellow; */
+    font-size: 1.2em;
+    font-family: "momo trust display","google sans", sans-serif;
+    border: solid yellow;
     width: 210px;
     max-width: 300px;
     height: 260px;
@@ -211,7 +211,7 @@ h2 {
     /* border: solid darkcyan; */
     background: #89bcd5;
     width: 80vw;
-    max-width: 1000px;
+    max-width: 660px;
     padding: 30px;
     margin: 10vh 30px 15vh auto;
     border-radius: 100px;
@@ -234,7 +234,30 @@ h2 {
 
 /* To Do Page */
 
+.whio__t {
+    /* border: solid darkcyan; */
+    background: #89bcd5;
+    width: 80vw;
+    max-width: 500px;
+    padding: 30px;
+    margin: 10vh 30px 15vh auto;
+    border-radius: 100px;
+}
 
+.whio__text__t {
+    padding-left: 30px;
+    padding-right: 40px;
+    color: rgb(30, 41, 54);
+}
+
+.whio__blurb__t p {
+    font-size: 2em;
+}
+
+.whio__blurb__t ul {
+    font-family: "google sans", arial, sans-serif;
+    font-weight: 550;
+}
 
 
 /* You Do Page */
