@@ -212,7 +212,7 @@ h2 {
     background: #89bcd5;
     width: 80vw;
     max-width: 660px;
-    padding: 30px;
+    padding: 25px;
     margin: 10vh 30px 15vh auto;
     border-radius: 100px;
 }
@@ -232,6 +232,8 @@ h2 {
     font-weight: 550;
 }
 
+
+
 /* To Do Page */
 
 .whio__t {
@@ -239,7 +241,7 @@ h2 {
     background: #89bcd5;
     width: 80vw;
     max-width: 500px;
-    padding: 30px;
+    padding: 20px;
     margin: 10vh 30px 15vh auto;
     border-radius: 100px;
 }
@@ -262,8 +264,56 @@ h2 {
 
 /* You Do Page */
 
+.whio__y {
+    /* border: solid darkcyan; */
+    background: #89bcd5;
+    width: 80vw;
+    max-width: 500px;
+    padding: 20px;
+    margin: 10vh 30px 15vh auto;
+    border-radius: 100px;
+}
+
+.whio__text__y {
+    padding-left: 30px;
+    padding-right: 40px;
+    color: rgb(30, 41, 54);
+}
+
+.whio__blurb__y p {
+    font-size: 2em;
+}
+
+.whio__blurb__y ul {
+    font-family: "google sans", arial, sans-serif;
+    font-weight: 550;
+}
 
 
 /* Volunteering Page */
 
+.whio__v {
+    /* border: solid darkcyan; */
+    background: #89bcd5;
+    width: 80vw;
+    max-width: 500px;
+    padding: 20px;
+    margin: 10vh 30px 15vh auto;
+    border-radius: 100px;
+}
+
+.whio__text__v {
+    padding-left: 30px;
+    padding-right: 40px;
+    color: rgb(30, 41, 54);
+}
+
+.whio__blurb__v p {
+    font-size: 2em;
+}
+
+.whio__blurb__v ul {
+    font-family: "google sans", arial, sans-serif;
+    font-weight: 550;
+}
 
