@@ -6,9 +6,9 @@
 }
 
 body {
-    font-family: 'Franklin Gothic Medium', 'google sans', Arial, sans-serif;
-    /* background: #34475c; */
-    background-image: linear-gradient(45deg, rgb(0, 39, 81), rgb(190, 217, 252));
+    font-family: 'google sans', Arial, sans-serif;
+    background: #34475c;
+    /* background-image: linear-gradient(45deg, rgb(0, 39, 81), rgb(190, 217, 252)); */
     color: aliceblue;
     margin: 0;
 }
@@ -22,13 +22,14 @@ h1 {
 } */
 
 .navigation {
-    text-align: right;
+    text-align: left;
     margin-bottom: 50vh;
+    padding: 0 0 0 2%;
 }
 
 .navigation a:link,
 .navigation a:visited {
-    color: aliceblue;
+    color: red;
 }
 
 /* Home/Navigation page */
@@ -171,6 +172,10 @@ h1 {
 
 /* Details page */
 
+body.Details {
+    background: rgb(239, 239, 240);
+}
+
 .hero__d {
     /* border: solid magenta; */
     height: 60vh;
@@ -207,8 +212,19 @@ h1 {
 }
 
 .intro__d {
-    background: blue;
-    padding-top: 4%;
+    background: rgb(239, 239, 240);
+    /* padding-top: 4%; */
+    padding: 4% 5% 4% 5%;
+}
+
+.intro__text__d {
+    color: rgb(20, 41, 54);
+}
+
+.intro__blurb__d {
+    font-family: "google sans", arial, sans-serif;
+    font-size: 1.7em;
+    font-weight: 100;
 }
 
 .whio__d {
@@ -236,13 +252,8 @@ h1 {
     font-weight: 550;
 }
 
-.intro__blurb__d {
-    font-family: "google sans", arial, sans-serif;
-    font-size: 1.7em;
-    font-weight: 100;
-}
-
 /* To Do Page */
+
 
 .whio__t {
     /* border: solid darkcyan; */
