@@ -9,7 +9,6 @@ body {
     font-family: 'google sans', Arial, sans-serif;
     background: #34475c;
     /* background-image: linear-gradient(45deg, rgb(0, 39, 81), rgb(190, 217, 252)); */
-    color: aliceblue;
     margin: 0;
 }
 
@@ -17,9 +16,9 @@ h1 {
     font-family: 'Momo Trust Display', 'google sans', arial, sans-serif;
 }
 
-/* h2 {
-    font-family: 'Franklin Gothic Medium', 'google sans', arial, sans-serif;
-} */
+h2 {
+   font-family: 'Momo Trust Display', 'google sans', arial, sans-serif;
+}
 
 .navigation {
     text-align: left;
@@ -173,7 +172,11 @@ h1 {
 /* Details page */
 
 body.Details {
-    background: rgb(239, 239, 240);
+    background: rgb(142, 142, 237);
+}
+
+.Details p {
+    font-size: 1.6em;
 }
 
 .hero__d {
@@ -223,8 +226,39 @@ body.Details {
 
 .intro__blurb__d {
     font-family: "google sans", arial, sans-serif;
-    font-size: 1.7em;
     font-weight: 100;
+}
+
+.native__endangerment {
+    border: 5px solid black;
+    border-radius: 50px;
+    padding: 3%;
+}
+
+.introduced__predators {
+    border: 5px solid black;
+    border-radius: 50px;
+    padding: 3%;
+}
+
+.introduced__predators__list {
+    border: 5px solid black;
+    border-radius: 50px;
+    padding: 3%;
+}
+
+.introduced__predators__list h2 {
+    font-size: 1.6em;
+}
+
+.introduced__predators__list p {
+    font-size: 1.3em;
+}
+
+.introduced__plants {
+    border: 5px solid black;
+    border-radius: 50px;
+    padding: 3%;
 }
 
 .whio__d {
