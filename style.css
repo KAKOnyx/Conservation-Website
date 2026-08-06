@@ -247,6 +247,27 @@ body.Details {
     padding: 3%;
 }
 
+.mustelids__image {
+    border: 5px solid black;
+    height: 100px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.rats__image {
+    border: 5px solid black;
+    height: 100px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.possums__image {
+    border: 5px solid black;
+    height: 100px;
+    width: 150px;
+    border-radius: 10px;
+}
+
 .introduced__predators__list h2 {
     font-size: 1.6em;
 }
@@ -256,6 +277,12 @@ body.Details {
 }
 
 .introduced__plants {
+    border: 5px solid black;
+    border-radius: 50px;
+    padding: 3%;
+}
+
+.humans {
     border: 5px solid black;
     border-radius: 50px;
     padding: 3%;
