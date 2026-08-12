@@ -214,6 +214,7 @@ body.Details {
     object-fit: cover;
 }
 
+
 .intro__d {
     background: rgb(239, 239, 240);
     /* padding-top: 4%; */
@@ -229,64 +230,6 @@ body.Details {
     font-weight: 100;
 }
 
-.native__endangerment {
-    border: 5px solid black;
-    border-radius: 50px;
-    padding: 3%;
-}
-
-.introduced__predators {
-    border: 5px solid black;
-    border-radius: 50px;
-    padding: 3%;
-}
-
-.introduced__predators__list {
-    border: 5px solid black;
-    border-radius: 50px;
-    padding: 3%;
-}
-
-.mustelids__image {
-    border: 5px solid black;
-    height: 100px;
-    width: 150px;
-    border-radius: 10px;
-}
-
-.rats__image {
-    border: 5px solid black;
-    height: 100px;
-    width: 150px;
-    border-radius: 10px;
-}
-
-.possums__image {
-    border: 5px solid black;
-    height: 100px;
-    width: 150px;
-    border-radius: 10px;
-}
-
-.introduced__predators__list h2 {
-    font-size: 1.6em;
-}
-
-.introduced__predators__list p {
-    font-size: 1.3em;
-}
-
-.introduced__plants {
-    border: 5px solid black;
-    border-radius: 50px;
-    padding: 3%;
-}
-
-.humans {
-    border: 5px solid black;
-    border-radius: 50px;
-    padding: 3%;
-}
 
 .whio__d {
     /* border: solid darkcyan; */
@@ -312,6 +255,103 @@ body.Details {
     font-family: "google sans", arial, sans-serif;
     font-weight: 550;
 }
+
+
+.native__endangerment {
+    border: 5px solid black;
+    border-radius: 50px;
+    padding: 3%;
+    margin: 5%;
+    max-width: 600px;
+}
+
+.introduced__predators {
+    border: 5px solid black;
+    border-radius: 50px;
+    padding: 3%;
+    margin: 5%;
+    max-width: 500px;
+}
+
+.introduced__predators__list {
+    border: 5px solid black;
+    border-radius: 50px;
+    padding: 3%;
+    margin: 5%;
+    max-width: 700px;
+}
+
+.mustelids {
+    display: flex;
+    border: solid red;
+}
+
+.mustelids__image {
+    border: 5px solid black;
+    height: 100px;
+    min-width: 150px;
+    border-radius: 10px;
+}
+
+.mustelids__text {
+    margin-left: 10%;
+}
+
+.rats {
+    display: flex;
+    border: solid rgb(255, 224, 26);
+    gap: 10%;
+}
+
+.rats__text {
+    margin-left: 10%;
+}
+
+.rats__image {
+    border: 5px solid black;
+    height: 100px;
+    min-width: 150px;
+    border-radius: 10px;
+}
+
+.possums__image {
+    border: 5px solid black;
+    height: 100px;
+    min-width: 150px;
+    border-radius: 10px;
+}
+
+.possums__text {
+    margin-left: 10%;
+}
+
+.possums {
+    display: flex;
+    border: solid rgb(30, 101, 255);
+}
+
+.introduced__predators__list h2 {
+    font-size: 1.6em;
+}
+
+.introduced__predators__list p {
+    font-size: 1.3em;
+}
+
+.introduced__plants {
+    border: 5px solid black;
+    border-radius: 50px;
+    padding: 3%;
+    margin: 5%;
+}
+
+.humans {
+    border: 5px solid black;
+    border-radius: 50px;
+    padding: 3%;
+    margin: 5%;
+}
+
 
 /* To Do Page */
 
