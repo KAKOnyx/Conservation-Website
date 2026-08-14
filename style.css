@@ -31,6 +31,35 @@ h2 {
     color: red;
 }
 
+.menu__container {
+    position: absolute;
+    background: red;
+    width: 50px;
+    height: 50px;
+    right: 50px;
+}
+
+.menu {
+    margin: auto;
+    padding: 0.5rem 1.5rem;
+    display: none;
+}
+
+.menu__links {
+    right: 25px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background: aliceblue;
+    border-radius: 10px;
+    padding: 0 30px 0 40px;
+    color: black;
+}
+
+.menu:hover .menu__links {
+    display: block;
+}
+
 /* Home/Navigation page */
 
 .hero {
