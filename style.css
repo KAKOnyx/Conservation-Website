@@ -31,33 +31,34 @@ h2 {
     color: red;
 }
 
-.menu__container {
-    position: absolute;
-    background: red;
-    width: 50px;
-    height: 50px;
-    right: 50px;
+.dropdown button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 2em;
 }
 
-.menu {
-    margin: auto;
-    padding: 0.5rem 1.5rem;
-    display: none;
-}
-
-.menu__links {
-    right: 25px;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    background: aliceblue;
-    border-radius: 10px;
-    padding: 0 30px 0 40px;
-    color: black;
-}
-
-.menu:hover .menu__links {
+.dropdown a{
     display: block;
+    color: darkblue;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdown .content{
+    display: none;
+    background-color: white;
+    position: absolute;
+    width: fit-content;
+    box-shadow: 3px 3px 5px rgba(12, 12, 12, 0.371);
+}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+.dropdown:hover button {
+    color: white;
 }
 
 /* Home/Navigation page */
