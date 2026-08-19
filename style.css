@@ -37,6 +37,7 @@ h2 {
     position: fixed;
     top: 20px;
     right: 20px;
+    z-index: 1;
 }
 
 
@@ -45,30 +46,41 @@ h2 {
     border: none;
     cursor: pointer;
     font-size: 2em;
+    color: aliceblue;
 }
 
 .dropdown a{
     display: block;
-    color: darkblue;
+    color: aliceblue;
     text-decoration: none;
     padding: 10px 15px;
 }
 
 .dropdown .content{
-    display: none;
-    background-color: white;
+    /* display: none; */
+    background-color: #34475c;
     position: absolute;
-    width: fit-content;
+    width: 50vh;
+    height: 102vh;
+    font-size: 2em;
     box-shadow: 3px 3px 5px rgba(12, 12, 12, 0.371);
-
+    right: -20px;
+    top: -36px;
 }
 
-.dropdown:hover .content {
+/* .dropdown:hover .content {
     display: block;
+} */
+
+.dropdown .text {
+    margin: 30% 0px 0px 10%;
+    line-height: 2em;
 }
+
+
 
 .dropdown:hover button {
-    color: white;
+    color: #9adb77;
 }
 
 /* Home/Navigation page */
@@ -114,7 +126,7 @@ h2 {
 
 .info {
     /* border: solid green; */
-    background: #85ba9d;
+    background: #5f8949;
     width: 80vw;
     max-width: 700px;
     border-radius: 100px;
@@ -173,11 +185,12 @@ h2 {
     color: aliceblue;
     background: linear-gradient(
         to right, 
-        #122c68, 
-        #88bef4);
+        #3e6b91, 
+        #89bcd5);
     mask: 
         radial-gradient(49.2px at 50% 69px,#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
         radial-gradient(49.2px at 50% -39px,#0000 99%,#000 101%) 50% 30px/120px 100% repeat-x;
+    z-index: 0;
 }
 
 .row {
