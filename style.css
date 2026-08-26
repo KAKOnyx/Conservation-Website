@@ -21,14 +21,19 @@ h2 {
 }
 
 .navigation {
-    text-align: left;
     margin-bottom: 50vh;
     padding: 0 0 0 2%;
+    width: fit-content;
+    height: fit-content;
+}
+
+.nav_btn:hover {
+    color: #9adb77;
 }
 
 .navigation a:link,
 .navigation a:visited {
-    color: red;
+    color: aliceblue;
 }
 
 .dropdown {
@@ -39,7 +44,6 @@ h2 {
     right: 20px;
     z-index: 1;
 }
-
 
 .dropdown button {
     background: none;
@@ -56,24 +60,66 @@ h2 {
     padding: 10px 15px;
 }
 
-.dropdown .content{
-    /* display: none; */
+.index_link {
+    padding-left: 15%;
+    border: solid red;
+    width: 100%
+}
+
+.index_link:hover a {
+    color: #9adb77;
+    background: #1d2c3c;
+}
+
+.details_link {
+    padding-left: 15%;
+}
+
+.details_link:hover a {
+    color: #9adb77;
+}
+
+.todo_link {
+    padding-left: 15%;
+}
+
+.todo_link:hover a {
+    color: #9adb77;
+}
+
+.youdo_link {
+    padding-left: 15%;
+}
+
+.youdo_link:hover a {
+    color: #9adb77;
+}
+
+.volunteering_link {
+    padding-left: 15%;
+}
+
+.volunteering_link:hover a {
+    color: #89bcd5;
+}
+
+.dropdown .dropdowncontent{
+    display: none;
     background-color: #34475c;
     position: absolute;
     width: 50vh;
     height: 102vh;
     font-size: 2em;
-    box-shadow: 3px 3px 5px rgba(12, 12, 12, 0.371);
     right: -20px;
     top: -36px;
 }
 
-/* .dropdown:hover .content {
+/* .dropdown:hover .dropdowncontent {
     display: block;
 } */
 
 .dropdown .text {
-    margin: 30% 0px 0px 10%;
+    margin: 30% 0px 0px 0%;
     line-height: 2em;
 }
 
@@ -232,7 +278,7 @@ h2 {
 /* Details page */
 
 body.Details {
-    background: rgb(142, 142, 237);
+    background: #3e6b91;
 }
 
 .Details p {
@@ -415,6 +461,9 @@ body.Details {
 
 /* To Do Page */
 
+body.todo {
+    background: #89bcd5;
+}
 
 .whio__t {
     /* border: solid darkcyan; */
@@ -447,17 +496,19 @@ body.Details {
 .whio__y {
     /* border: solid darkcyan; */
     background: #89bcd5;
-    width: 80vw;
-    max-width: 500px;
     padding: 20px;
     margin: 10vh 30px 15vh auto;
-    border-radius: 100px;
+    border-radius: 47% 53% 53% 47% / 65% 46% 54% 35%;
+    width: fit-content
+    heitght: fit-content;
 }
 
 .whio__text__y {
+    width: 570px;
     padding-left: 30px;
     padding-right: 40px;
     color: rgb(30, 41, 54);
+    margin: auto;
 }
 
 .whio__blurb__y p {
