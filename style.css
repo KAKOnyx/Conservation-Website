@@ -7,17 +7,24 @@
 
 body {
     font-family: 'google sans', Arial, sans-serif;
-    background: #34475c;
+    background: #3A3A3D;
     /* background-image: linear-gradient(45deg, rgb(0, 39, 81), rgb(190, 217, 252)); */
     margin: 0;
 }
 
 h1 {
     font-family: 'Momo Trust Display', 'google sans', arial, sans-serif;
+    color: aliceblue;
 }
 
 h2 {
    font-family: 'Momo Trust Display', 'google sans', arial, sans-serif;
+   color: aliceblue;
+}
+
+p {
+    font-family: font-family: "google sans", arial, sans-serif;
+    color: aliceblue;
 }
 
 .navigation {
@@ -46,11 +53,13 @@ h2 {
 }
 
 .dropdown button {
-    background: none;
+    background: red;
     border: none;
     cursor: pointer;
     font-size: 2em;
     color: aliceblue;
+    width: 100px;
+    z-index: -1;
 }
 
 .dropdown a{
@@ -61,26 +70,36 @@ h2 {
 }
 
 .index_link {
-    padding-left: 15%;
-    border: solid red;
+    padding-left: 7%;
     width: 100%
 }
 
-.index_link:hover a {
+.index_item:hover a {
     color: #9adb77;
+}
+
+.index_item:hover {
     background: #1d2c3c;
 }
 
 .details_link {
-    padding-left: 15%;
+    padding-left: 7%;
+}
+
+.details_item:hover {
+    background: #1d2c3c;
 }
 
 .details_link:hover a {
     color: #9adb77;
 }
 
+.todo_item:hover {
+    background: #1d2c3c;
+}
+
 .todo_link {
-    padding-left: 15%;
+    padding-left: 7%;
 }
 
 .todo_link:hover a {
@@ -88,7 +107,11 @@ h2 {
 }
 
 .youdo_link {
-    padding-left: 15%;
+    padding-left: 7%;
+}
+
+.youdo_item:hover {
+    background: #1d2c3c;
 }
 
 .youdo_link:hover a {
@@ -96,7 +119,11 @@ h2 {
 }
 
 .volunteering_link {
-    padding-left: 15%;
+    padding-left: 7%;
+}
+
+.volunteering_item:hover {
+    background: #1d2c3c;
 }
 
 .volunteering_link:hover a {
@@ -277,9 +304,6 @@ h2 {
 
 /* Details page */
 
-body.Details {
-    background: #3e6b91;
-}
 
 .Details p {
     font-size: 1.6em;
@@ -322,13 +346,16 @@ body.Details {
 
 
 .intro__d {
-    background: rgb(239, 239, 240);
+    max-width: 800px;
     /* padding-top: 4%; */
     padding: 4% 5% 4% 5%;
+    border: 5px solid black;
+    border-radius: 50px;
+    margin: 5%;
 }
 
 .intro__text__d {
-    color: rgb(20, 41, 54);
+    color: black;
 }
 
 .intro__blurb__d {
@@ -461,12 +488,8 @@ body.Details {
 
 /* To Do Page */
 
-body.todo {
-    background: #89bcd5;
-}
 
 .whio__t {
-    /* border: solid darkcyan; */
     background: #89bcd5;
     width: 80vw;
     max-width: 500px;
@@ -491,6 +514,11 @@ body.todo {
 }
 
 
+
+
+
+
+
 /* You Do Page */
 
 .whio__y {
@@ -500,7 +528,7 @@ body.todo {
     margin: 10vh 30px 15vh auto;
     border-radius: 47% 53% 53% 47% / 65% 46% 54% 35%;
     width: fit-content
-    heitght: fit-content;
+    height: fit-content;
 }
 
 .whio__text__y {

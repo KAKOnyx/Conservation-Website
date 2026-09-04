@@ -13,5 +13,5 @@ window.addEventListener('click', (event) => {
     if (!event.target.matches('.dropdown button')) {
         //close dropdown if the click is outside
         dropdowncontent.style.display = 'none';
-    }
+    };
 });
