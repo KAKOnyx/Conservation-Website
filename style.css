@@ -34,8 +34,8 @@ p {
     height: fit-content;
 }
 
-.nav_btn:hover {
-    color: #9adb77;
+.dropdownbutton:hover {
+    color: #89bcd5;
 }
 
 .navigation a:link,
@@ -75,11 +75,11 @@ p {
 }
 
 .index_item:hover a {
-    color: #9adb77;
+    color: #89bcd5;
 }
 
 .index_item:hover {
-    background: #1d2c3c;
+    background: #262628;
 }
 
 .details_link {
@@ -87,15 +87,15 @@ p {
 }
 
 .details_item:hover {
-    background: #1d2c3c;
+    background: #262628;
 }
 
 .details_link:hover a {
-    color: #9adb77;
+    color: #89bcd5;
 }
 
 .todo_item:hover {
-    background: #1d2c3c;
+    background: #262628;
 }
 
 .todo_link {
@@ -103,7 +103,7 @@ p {
 }
 
 .todo_link:hover a {
-    color: #9adb77;
+    color: #89bcd5;
 }
 
 .youdo_link {
@@ -111,11 +111,11 @@ p {
 }
 
 .youdo_item:hover {
-    background: #1d2c3c;
+    background: #262628;
 }
 
 .youdo_link:hover a {
-    color: #9adb77;
+    color: #89bcd5;
 }
 
 .volunteering_link {
@@ -123,7 +123,7 @@ p {
 }
 
 .volunteering_item:hover {
-    background: #1d2c3c;
+    background: #262628;
 }
 
 .volunteering_link:hover a {
@@ -132,7 +132,7 @@ p {
 
 .dropdown .dropdowncontent{
     display: none;
-    background-color: #34475c;
+    background-color: #3A3A3D;
     position: absolute;
     width: 50vh;
     height: 102vh;
@@ -150,11 +150,6 @@ p {
     line-height: 2em;
 }
 
-
-
-.dropdown:hover button {
-    color: #9adb77;
-}
 
 /* Home/Navigation page */
 
@@ -347,15 +342,12 @@ p {
 
 .intro__d {
     max-width: 800px;
-    /* padding-top: 4%; */
-    padding: 4% 5% 4% 5%;
-    border: 5px solid black;
-    border-radius: 50px;
     margin: 5%;
 }
 
 .intro__text__d {
     color: black;
+    text-align: justify;
 }
 
 .intro__blurb__d {
@@ -365,30 +357,34 @@ p {
 
 
 .whio__d {
-    /* border: solid darkcyan; */
     background: #89bcd5;
-    width: 80vw;
-    max-width: 660px;
-    padding: 25px;
-    margin: 10vh 30px 15vh auto;
-    border-radius: 100px;
+    width: 100%;
+    padding: 30px 0 30px 0;
+    max-height: fit-content;
 }
 
 .whio__text__d {
-    padding-left: 30px;
-    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-left: 7%;
+    padding-right: 5%;
     color: rgb(30, 41, 54);
+    max-width: 800px;
+}
+
+.whio__blurb__d {
+    display: flex;
+    gap: 20px;
 }
 
 .whio__blurb__d p {
-    font-size: 2em;
+    font-size: 1em;
 }
 
-.whio__blurb__d ul {
-    font-family: "google sans", arial, sans-serif;
-    font-weight: 550;
+.whio__column__d {
+    width: 225px;
 }
-
 
 .native__endangerment {
     border: 5px solid black;
