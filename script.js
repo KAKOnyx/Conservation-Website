@@ -1,17 +1,39 @@
-// get the button and dropdown content elements
-const dropdownbutton = document.getElementById('dropdownbutton');
-const dropdowncontent = document.getElementById('dropdowncontent');
+const dropdown = document.querySelector('.dropdown');
+const dropdownButton = document.getElementById('dropdownbutton');
+const dropdownContent = document.getElementById('dropdowncontent');
 
-// listen for clicks on the dropdown button
-dropdownbutton.addEventListener('click',() => {
-// toggle the visibility of the dropdown content
-    dropdowncontent.style.display = dropdowncontent.style.display === 'block' ? 'none' : 'block';
+function openDropdown() {
+    dropdownContent.style.display = 'block';
+    dropdownButton.setAttribute('aria-expanded', 'true');
+}
+
+function closeDropdown() {
+    dropdownContent.style.display = 'none';
+    dropdownButton.setAttribute('aria-expanded', 'false');
+}
+
+function isOpen() {
+    return dropdownContent.style.display === 'block';
+}
+
+// Toggle when the button (or anything inside it, like the icon) is clicked
+dropdownButton.addEventListener('click', () => {
+    isOpen() ? closeDropdown() : openDropdown();
 });
 
-// close the dropdown if the user clicks outside of it
-window.addEventListener('click', (event) => {
-    if (!event.target.matches('.dropdown button')) {
-        //close dropdown if the click is outside
-        dropdowncontent.style.display = 'none';
-    };
+// Close when clicking anywhere outside the whole dropdown
+document.addEventListener('click', (event) => {
+    if (!dropdown.contains(event.target)) {
+        closeDropdown();
+    }
 });
+
+// Close with the Escape key, and return focus to the button
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && isOpen()) {
+        closeDropdown();
+        dropdownButton.focus();
+    }
+});
+
+
