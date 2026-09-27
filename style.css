@@ -188,7 +188,7 @@ p {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 7vh;
+    top: 45px;
     left: 7vw;
     z-index: -1;
     background: #3E6B91;
@@ -288,7 +288,7 @@ p {
 }
 
 .col {
-    font-size: 1.2em;
+    font-size: 0.75em;
     font-family: "momo trust display","google sans", sans-serif;
     width: 200px;
     height: 230px;
@@ -296,12 +296,12 @@ p {
 }
 
 .circle {
-    background: #74A862;
+    background: lightblue;
     width: 160px;
     height: 160px;
     border-radius: 50%;
     margin: 0 auto;
-        transition: 0.5s ease;
+    transition: 0.5s ease;
 }
 
 .nav_btn img {
