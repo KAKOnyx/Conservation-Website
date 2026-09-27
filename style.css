@@ -23,8 +23,21 @@ h2 {
 }
 
 p {
-    font-family: font-family: "google sans", arial, sans-serif;
-    color: aliceblue;
+   font-family: 'google sans', arial, sans-serif;
+   color: aliceblue; 
+}
+
+.logo {
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    background: white;
+    border-radius: 50%;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
 }
 
 .navigation {
@@ -134,7 +147,7 @@ p {
     background-color: #3A3A3D;
     position: absolute;
     width: 50vh;
-    height: 102vh;
+    height: 120vh;
     font-size: 2em;
     right: -20px;
     top: -36px;
@@ -155,6 +168,7 @@ p {
     height: 80vh;
     min-height: 600px;
     overflow-wrap: break-word;
+    margin-top: 120px;
     margin-bottom: 10vh;
 }
 
@@ -177,6 +191,8 @@ p {
     top: 7vh;
     left: 7vw;
     z-index: -1;
+    background: #3E6B91;
+    border-radius: 40px;
 }
 
 .hero__image img {
@@ -192,7 +208,7 @@ p {
     background: #5f8949;
     width: 80vw;
     max-width: 700px;
-    border-radius: 100px;
+    border-radius: 75px;
     margin: 0 auto;
     color: rgb(26, 35, 30);
 }
@@ -222,22 +238,29 @@ p {
     max-width: 1000px;
     padding: 30px;
     margin: 10vh 30px 15vh auto;
-    border-radius: 100px;
+    border-radius: 75px;
 }
 
 .whio__text {
     padding-left: 30px;
     padding-right: 40px;
-    color: rgb(30, 41, 54);
+}
+
+.whio__hook h1 {
+    color: #262c3a;
 }
 
 .whio__blurb p {
-    font-size: 2em;
+    font-size: 1.75em;
+    font-weight:bolder;
+    color: #262c3a;
 }
 
 .whio__blurb ul {
     font-family: "google sans", arial, sans-serif;
-    font-weight: 550;
+    font-weight: bold;
+    font-style: italic;
+    color: #262c3a;
 }
 
 .container {
@@ -267,10 +290,18 @@ p {
 .col {
     font-size: 1.2em;
     font-family: "momo trust display","google sans", sans-serif;
-    /* border: solid yellow; */
     width: 200px;
     height: 230px;
     text-align: center;
+}
+
+.circle {
+    background: #74A862;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin: 0 auto;
+        transition: 0.5s ease;
 }
 
 .nav_btn img {
@@ -291,18 +322,27 @@ p {
     filter: drop-shadow(1px 3px 8px rgba(0, 0, 0, 0.5));
 }
 
+.circle:hover,
+.circle img:focus {
+    /* width: 8.6em;
+    height: 8.6em; */
+    transform: scale(1.1);
+    filter: drop-shadow(1px 3px 8px rgba(0, 0, 0, 0.5));
+}
+
 
 /* Details page */
 
 
-.Details p {
+.Details p, h2 {
     font-size: 1.6em;
+    /* color: aliceblue; */
 }
 
 .hero__d {
     /* border: solid magenta; */
     height: 60vh;
-    margin-top: 9.6vh;
+    margin-top: 175px;
 }
 
 .hero__text__d {
@@ -312,11 +352,15 @@ p {
     /* border: solid red; */
     font-family: 'momo trust display', sans-serif;
     font-size: 1.7em;
-    color: aliceblue;
+}
+
+.hero__text__d h1 {
+    color:#262c3a;
 }
 
 .hero__image__d {
     /* border: solid green; */
+    margin-top: 100px;
     width: 100%;
     height: 60vh;
     top: 80px;
@@ -325,6 +369,7 @@ p {
     align-items: center;
     position: absolute;
     z-index: -1;
+    background: #89bcd5;
 }
 
 .hero__image__d img {
@@ -341,8 +386,7 @@ p {
 }
 
 .intro__text__d {
-    color: black;
-    text-align: justify;
+    color: aliceblue;
 }
 
 .intro__blurb__d {
@@ -361,11 +405,12 @@ p {
 .whio__text__d {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
     gap: 30px;
     padding-left: 7%;
     padding-right: 5%;
-    color: rgb(30, 41, 54);
-    max-width: 800px;
+    max-width: 100vw;
 }
 
 .whio__blurb__d {
@@ -375,6 +420,18 @@ p {
 
 .whio__blurb__d p {
     font-size: 1em;
+    color: #262c3a;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.whio__blurb__d h2 {
+    color: #262c3a;
+}
+
+.whio__hook__d p, .whio__hook__d h1 {
+    font-weight: bold;
+    color: #262c3a
 }
 
 .whio__column__d {
@@ -390,7 +447,6 @@ p {
 }
 
 .introduced__predators {
-    border: 5px solid black;
     border-radius: 50px;
     padding: 3%;
     margin: 5%;
@@ -405,9 +461,12 @@ p {
     max-width: 700px;
 }
 
+.introduced__predators__list h2 {
+    color: aliceblue;
+}
+
 .mustelids {
     display: flex;
-    border: solid red;
 }
 
 .mustelids__image {
@@ -479,6 +538,9 @@ p {
 
 /* To Do Page */
 
+.heading__t {
+    margin-top: 150px;
+}
 
 .whio__t {
     background: #89bcd5;
@@ -486,39 +548,45 @@ p {
     max-width: 500px;
     padding: 20px;
     margin: 10vh 30px 15vh auto;
-    border-radius: 100px;
+    border-radius: 75px;
 }
 
 .whio__text__t {
     padding-left: 30px;
     padding-right: 40px;
-    color: rgb(30, 41, 54);
+}
+
+.whio__text__t h1 {
+    color: #262c3a;
 }
 
 .whio__blurb__t p {
-    font-size: 2em;
+    font-size: 1.75em;
+    color: #262c3a;
+    font-weight: bolder;
 }
 
 .whio__blurb__t ul {
     font-family: "google sans", arial, sans-serif;
-    font-weight: 550;
+    font-weight: bold;
+    font-style: italic;
 }
-
-
-
-
 
 
 
 /* You Do Page */
 
+.heading__y {
+    margin-top: 150px;
+}
+
 .whio__y {
     /* border: solid darkcyan; */
     background: #89bcd5;
-    padding: 20px;
-    margin: 10vh 30px 15vh auto;
-    border-radius: 47% 53% 53% 47% / 65% 46% 54% 35%;
-    width: fit-content
+    padding: 3%;
+    margin: 10vh auto;
+    border-radius:75px;
+    width: fit-content;
     height: fit-content;
 }
 
@@ -530,17 +598,28 @@ p {
     margin: auto;
 }
 
+.whio__text__y h1 {
+    color: #262c3a;
+}
+
 .whio__blurb__y p {
-    font-size: 2em;
+    font-size: 1.75em;
+    color: #262c3a;
+    font-weight: bolder;
 }
 
 .whio__blurb__y ul {
     font-family: "google sans", arial, sans-serif;
     font-weight: 550;
+    font-style: italic;
 }
 
 
 /* Volunteering Page */
+
+.heading__v {
+    margin-top: 150px;
+}
 
 .whio__v {
     /* border: solid darkcyan; */
@@ -549,7 +628,7 @@ p {
     max-width: 500px;
     padding: 20px;
     margin: 10vh 30px 15vh auto;
-    border-radius: 100px;
+    border-radius: 75px;
 }
 
 .whio__text__v {
@@ -558,12 +637,19 @@ p {
     color: rgb(30, 41, 54);
 }
 
+.whio__text__v h1 {
+    color: #262c3a;
+}
+
 .whio__blurb__v p {
-    font-size: 2em;
+    font-size: 1.75em;
+    color: #262c3a;
+    font-weight: bolder;
 }
 
 .whio__blurb__v ul {
     font-family: "google sans", arial, sans-serif;
     font-weight: 550;
+    font-style: italic;
 }
 
