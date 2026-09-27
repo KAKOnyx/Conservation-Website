@@ -183,8 +183,7 @@ p {
     /* border: solid red; */
     width: 84vw;
     height: 70vh;
-    min-height: 550px;
-    min-height: fit-content;
+    min-height: 650px;
     display: flex;
     justify-content: center;
     align-items: center;
