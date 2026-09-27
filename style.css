@@ -183,7 +183,7 @@ p {
     /* border: solid red; */
     width: 84vw;
     height: 70vh;
-    min-height: 650px;
+    min-height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -195,13 +195,13 @@ p {
     border-radius: 40px;
 }
 
-.hero__image img {
+/* .hero__image img {
     width: 84vw;
     height: 70vh;
     min-height: 550px;
     object-fit: cover;
     border-radius: 10px;
-}
+} */
 
 .info {
     /* border: solid green; */
@@ -211,6 +211,7 @@ p {
     border-radius: 75px;
     margin: 0 auto;
     color: rgb(26, 35, 30);
+    margin-top: 150px;
 }
 
 .info__hook {
